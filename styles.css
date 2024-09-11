@@ -64,15 +64,28 @@ transform: scale(0.8)
   object-fit: cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  transition: transform 0.3s ease-in-out;
 }
 
-.ps {
+.grid-items:hover {
+  transform: scale(0.7);
+}
+
+.grid-items:hover + .as {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+
+.as {
   display: block;
   padding-top: 1rem;
   background-color: #fff;
   z-index: 99;
   margin-top: -2px;
   padding: 4px 7px;
+  text-decoration: none;
+  color: black;
 }
 
 .divs {
