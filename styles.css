@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+/* HEADER */
+
 .header-css {
   width: 100%;
   height: 150px;
@@ -17,7 +19,7 @@ h1{
 
 #search-box {
   width: 360px;
-  height: 30px;
+  height: 35px;
   border: none;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border-radius: 4px;
@@ -26,11 +28,56 @@ h1{
 
 .search-btn {
   margin-left: -4.5px;
-  height: 33px;
+  height: 35px;
   width: 70px;
   border: none;
   background-color: #4caf50;
   color: white;
   border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: transform 300ms ease-in-out;
+}
+
+.search-btn:hover {
+transform: scale(0.8)
+}
+
+.search-btn:active {
+  opacity: 0.6;
+}
+
+.rendering-photos {
+  margin-top: 75px;
+  width: 100%;
+  padding-left: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 25px;
   
+
+}
+
+.grid-items {
+  align-self: center;
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.ps {
+  display: block;
+  padding-top: 1rem;
+  background-color: #fff;
+  z-index: 99;
+  margin-top: -2px;
+  padding: 4px 7px;
+}
+
+.divs {
+  width: 360px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
