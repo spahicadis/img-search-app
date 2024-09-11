@@ -49,13 +49,12 @@ transform: scale(0.8)
 
 .rendering-photos {
   margin-top: 75px;
-  width: 100%;
-  padding-left: 35px;
+  width: 1200px;
+  margin: 50px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 25px;
-  
-
+  padding-bottom: 50px;
 }
 
 .grid-items {
@@ -81,3 +80,36 @@ transform: scale(0.8)
   border-radius: 12px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+
+.footer-css {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.button-css {
+  border: none;
+  width: 120px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  transition: transform 300ms ease-in-out;
+  cursor: pointer;
+  margin: 0 auto;
+  display: none;
+}
+
+.button-css:hover {
+  transform: scale(0.8)
+}
+
+.button-css:active {
+  opacity: 0.6;
+}
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+@media screen and (max-width: 1200px) {
+  .rendering-photos {
+    margin-top: 75px;
+    width: 100%;
+    padding-left: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+    padding-bottom: 50px;
+  }
+
+  .grid-items {
+    align-self: center;
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+};
